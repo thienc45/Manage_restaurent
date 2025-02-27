@@ -9,7 +9,6 @@ import { UpdateTableBodyType } from "./dto/update-table.dto";
 import { Table } from "./table.entity/table.entity";
 
 @Injectable()
-export class TableService {}
 @Injectable()
 export class TablesService {
   constructor(

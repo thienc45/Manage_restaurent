@@ -1,6 +1,6 @@
 import { Body, Controller, Post } from "@nestjs/common";
-import { GuestService } from "./guest.service";
 import { GuestLoginBodyType } from "src/schemaValidations/guest.schema";
+import { GuestService } from "./guest.service";
 
 @Controller("guest")
 export class GuestController {
